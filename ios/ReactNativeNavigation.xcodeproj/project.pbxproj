@@ -12,6 +12,8 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		18D22143239FE44600AC166C /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D22141239FE44600AC166C /* OpenSans-Bold.ttf */; };
+		18D22144239FE44600AC166C /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D22142239FE44600AC166C /* OpenSans-Regular.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -53,6 +55,8 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativeNavigation/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeNavigation/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeNavigation/main.m; sourceTree = "<group>"; };
+		18D22141239FE44600AC166C /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "../../src/assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		18D22142239FE44600AC166C /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "../../src/assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		1B23A67CFAB0FED11CCFB71F /* Pods-ReactNativeNavigation-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeNavigation-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeNavigation-tvOS/Pods-ReactNativeNavigation-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		2808C77333EEC4FB63DA41A0 /* Pods-ReactNativeNavigationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeNavigationTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeNavigationTests/Pods-ReactNativeNavigationTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* ReactNativeNavigation-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactNativeNavigation-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +140,15 @@
 			name = ReactNativeNavigation;
 			sourceTree = "<group>";
 		};
+		18D22140239FE3B500AC166C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				18D22141239FE44600AC166C /* OpenSans-Bold.ttf */,
+				18D22142239FE44600AC166C /* OpenSans-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +172,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				18D22140239FE3B500AC166C /* fonts */,
 				13B07FAE1A68108700A75B9A /* ReactNativeNavigation */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ReactNativeNavigationTests */,
@@ -194,7 +208,6 @@
 				48892285B9C82DFEDC05C01A /* Pods-ReactNativeNavigationTests.debug.xcconfig */,
 				2808C77333EEC4FB63DA41A0 /* Pods-ReactNativeNavigationTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +321,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -338,6 +352,8 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				18D22144239FE44600AC166C /* OpenSans-Regular.ttf in Resources */,
+				18D22143239FE44600AC166C /* OpenSans-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
